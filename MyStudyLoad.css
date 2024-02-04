@@ -1,0 +1,203 @@
+
+h1{
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    margin-top: 5%;
+} 
+h2{
+  text-align: center;
+    justify-content: center;
+    font-size: large;
+    
+}
+h3{
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+  margin-bottom: 2%;
+}
+h4{
+ font-weight: bold;
+}
+h5{
+  font-weight: bold;
+}
+p {
+  font-size: small;
+  margin-left: 290px; 
+}
+
+@media only screen and (max-width: 1200px) {
+  p {
+    font-size: medium;
+    margin-left: 150px; 
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  p {
+    font-size: medium;
+    margin-left: 150px; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: small; 
+    margin-left: 0; 
+  }
+}
+
+@media only screen and (max-width: 656px) {
+  p {
+    font-size: small; 
+    margin-left: 0; 
+  }
+}
+
+td{
+  font-size: 13px;
+}
+
+thead{
+  text-align: left;
+}
+tbody{
+  text-align: left; 
+  font-size: 13px
+}
+#student{
+  border-bottom: 2px solid black;
+  
+}
+#program{
+  font-size: 15px
+}
+.total{
+  font-size: small;
+}
+#fees {
+  border: 2px solid black;
+  width: 656px; 
+  margin: auto; 
+  box-sizing: border-box; 
+}
+@media only screen and (max-width: 1200px) {
+  #fees {
+    width: 90%; 
+  }
+}
+@media only screen and (max-width: 992px) {
+  #fees {
+    width: 80%; 
+  }
+}
+@media only screen and (max-width: 768px) {
+  #fees {
+    width: 90%; 
+  }
+}
+@media only screen and (max-width: 656px) {
+  #fees {
+    width: 100%; 
+  }
+}
+
+.payment-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .payment-container {
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0;
+  }
+}
+
+.StudentInformation{
+  width: 70%; 
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+#program,
+#programdata {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#program th,
+#programdata td {
+  border-right: 2px solid black; 
+}
+
+#program th:last-child,
+#programdata td:last-child {
+  border-right: none;
+}
+.description-text{
+  text-align: center;
+}
+.left-text{
+  text-align: left;
+}
+.center-text1{
+  text-align: center;
+}
+.right-text{
+  text-align: right;
+}
+.data-width{
+  width: 50%;
+}
+.date-width{
+  width: 50%;
+}
+
+#class-information {
+  border: 2px solid black;
+  width: 80%; 
+  max-width: 1320px; 
+  margin: auto; 
+  box-sizing: border-box; 
+}
+
+@media only screen and (max-width: 1200px) {
+  #class-information {
+    width: 90%; 
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #class-information {
+    width: 90%; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #class-information {
+    width: 100%; 
+  }
+}
+
+@media only screen and (max-width: 656px) {
+  #class-information {
+    width: 100%; 
+  }
+}
+
+.subject-width{
+  width: 15%;
+}
+.unit-width{
+  width: 12%;
+}
+
+.studyload{
+  font-weight: bold;
+  font-size: medium;
+}
